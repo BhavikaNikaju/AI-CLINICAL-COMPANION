@@ -70,9 +70,6 @@ def chat():
     return str(response["answer"])
 
 
-
-
-
 @app.route("/")             # type: ignore
 def index():
     return render_template('chat.html')
